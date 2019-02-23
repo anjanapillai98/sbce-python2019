@@ -9,7 +9,7 @@ def index():
 def home():
     return "My Home page"
 
-@app.route("contact")
+@app.route("/contact")
 def contact():
     return "my contact..."
 
